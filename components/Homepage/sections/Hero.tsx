@@ -1,10 +1,11 @@
 "use client"
 import Image from 'next/image'
 import React, { useState } from 'react'
-import heroImg from "@/assets/snoop.png"
+import heroImg from "@/assets/dugggggg.jpg"
 import { Tektur } from 'next/font/google';
 import Link from 'next/link';
 import dex from '@/assets/dex-screener-seeklogo.png'
+import dexTools from "@/assets/dexTools.png"
 import telegram from "@/assets/telegram.png"
 import x from "@/assets/x.webp"
 import { CopyAll } from '@mui/icons-material';
@@ -20,7 +21,7 @@ const tektur = Tektur({
 const Hero = () => {
     const [copied, setCopied] = useState(false);
 
-    const textToCopy = `FDmybAAfGAAGQRdxTuWcgoKMTxtrCkWwnfFav5eVmoon`;
+    const textToCopy = `GBLMVFNai3UNvxNn1NQHah7MvbwnQMrNVtcWVghepump`;
 
     const handleCopy = () => {
         navigator.clipboard.writeText(textToCopy)
@@ -33,20 +34,20 @@ const Hero = () => {
             });
     };
     return (
-        <div id='home' className='text-white animation-bg lg:h-[100vh] pt-[90px] w-screen flex flex-col items-center justify-start px-[20px]'>
+        <div id='home' className='text-[#6E4D1B] bg-[#BCDFBC]  lg:h-[100vh] pt-[90px] w-screen flex flex-col items-center justify-start px-[20px]'>
             <div className=' h-[75%] w-full flex flex-col lg:flex-row items-end justify-between'>
                 <div className=' lg:w-[50%] pb-[10px]'>
                     <FadeInFromBottom>
                         <div className={tektur.className}>
                             <div className=' font-extrabold uppercase font-sans'>
-                                <h1 className=' text-4xl lg:text-5xl mb-3 text-white'>It's Skinny Nigga Season</h1>
-                                <div className=' p-2 rounded-lg bg-white text-black w-fit text-3xl lg:text-4xl mb-4'>
-                                    <h1 className={tektur.className}>time to take back what's ours!</h1>
+                                <h1 className=' text-4xl lg:text-5xl mb-3 text-[#6E4D1B]'>Doge's Retarded Brother</h1>
+                                <div className=' p-2 rounded-lg bg-[#6E4D1B] text-[#BCDFBC] w-fit text-3xl lg:text-4xl mb-4'>
+                                    <h1 className={tektur.className}>the community's memecoin!</h1>
                                 </div>
                                 <div className=' flex items-center justify-start'>
-                                    <Link href="https://dexscreener.com/solana/fdmybaafgaagqrdxtuwcgokmtxtrckwwnffav5evmoon"
+                                    <Link href="https://dexscreener.com/solana/GBLMVFNai3UNvxNn1NQHah7MvbwnQMrNVtcWVghepump"
                                         target='blank'
-                                        className=' flex items-center justify-center h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] rounded-full border-white border mx-2 bg-white/10 backdrop-blur-lg hover:bg-white/0 duration-700 hover:border-transparent'
+                                        className=' flex items-center justify-center h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] rounded-full border-[#6E4D1B] border mx-2 bg-white/10 backdrop-blur-lg hover:bg-white/0 duration-700 hover:border-transparent'
                                     >
                                         <Image
                                             src={dex}
@@ -54,9 +55,19 @@ const Hero = () => {
                                             className=' h-[50px] lg:h-[70px] w-[50px] lg:w-[70px] rounded-full'
                                         />
                                     </Link>
-                                    <Link href="https://t.me/realskinnycto"
+                                    <Link href="https://www.dextools.io/app/en/solana/pair-explorer/CEA31ZVBVs5efNPhdvRAbHecJ4My21HLhUCk2kmjvgUZ"
                                         target='blank'
-                                        className=' flex items-center justify-center h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] rounded-full border-white border mx-2 bg-white/10 backdrop-blur-lg hover:bg-white/0 duration-700 hover:border-transparent'
+                                        className=' flex items-center justify-center h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] rounded-full border-[#6E4D1B] border mx-2 bg-white/10 backdrop-blur-lg hover:bg-white/0 duration-700 hover:border-transparent'
+                                    >
+                                        <Image
+                                            src={dexTools}
+                                            alt=''
+                                            className=' h-[50px] lg:h-[70px] w-[50px] lg:w-[70px] rounded-full'
+                                        />
+                                    </Link>
+                                    <Link href="https://t.me/Dogesretardedbrother"
+                                        target='blank'
+                                        className=' flex items-center justify-center h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] rounded-full border-[#6E4D1B] border mx-2 bg-white/10 backdrop-blur-lg hover:bg-white/0 duration-700 hover:border-transparent'
                                     >
                                         <Image
                                             src={telegram}
@@ -64,9 +75,9 @@ const Hero = () => {
                                             className=' h-[50px] lg:h-[70px] w-[50px] lg:w-[70px] rounded-full'
                                         />
                                     </Link>
-                                    <Link href="https://x.com/skinnyfellacto"
+                                    <Link href="https://x.com/dugg_cto"
                                         target='blank'
-                                        className=' flex items-center justify-center h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] rounded-full border-white border mx-2 bg-white/10 backdrop-blur-lg hover:bg-white/0 duration-700 hover:border-transparent'
+                                        className=' flex items-center justify-center h-[60px] lg:h-[80px] w-[60px] lg:w-[80px] rounded-full border-[#6E4D1B] border mx-2 bg-white/10 backdrop-blur-lg hover:bg-white/0 duration-700 hover:border-transparent'
                                     >
                                         <Image
                                             src={x}
@@ -85,28 +96,28 @@ const Hero = () => {
                         <Image
                             src={heroImg}
                             alt=''
-                            className=' w-full rounded-3xl'
+                            className=' w-[90%] mx-auto'
                         />
                     </FadeIn>
                 </div>
             </div>
             <FadeInFromRight>
                 <div className=' flex items-center justify-end w-full'>
-                    <div className=' bg-white lg:h-[100px] w-[97%] mx-auto lg:mx-0 lg:w-[75%] flex flex-col lg:flex-row items-center justify-between text-black p-4'>
+                    <div className=' bg-[#6E4D1B] lg:h-[100px] w-[97%] mx-auto lg:mx-0 lg:w-[75%] flex flex-col lg:flex-row items-center justify-between text-[#BCDFBC] p-4'>
                         <div className={tektur.className}>
                             <div onClick={handleCopy} className=' max-w-[90vw] lg:max-w-[30vw] flex flex-col items-center justify-center bg-transparent text-black py-1 w-[95%] lg:w-fit mx-auto lg:mx-0 px-4 rounded-md'>
-                                <h1 className=" w-full truncate mr-4 cursor-pointer font-extrabold text-black break-words break-all overflow-wrap text-md md:text-xl text-center lg:text-3xl max-w-full">
+                                <h1 className=" w-full truncate mr-4 cursor-pointer font-extrabold text-[#BCDFBC] break-words break-all overflow-wrap text-md md:text-xl text-center lg:text-3xl max-w-full">
                                     {textToCopy}
                                 </h1>
-                                <h1 className=' cursor-pointer'>{copied ? (<span className="text-black">Text copied to clipboard!</span>) : (<span><CopyAll /> Click to copy CA</span>)}</h1>
+                                <h1 className=' cursor-pointer text-[#BCDFBC]'>{copied ? (<span className="text-[#BCDFBC]">Text copied to clipboard!</span>) : (<span><CopyAll /> Click to copy CA</span>)}</h1>
                                 {/* {copied && <} */}
                             </div>
                         </div>
 
                         <div className=' lg:w-[45%] text-sm'>
                             <div className={tektur.className}>
-                                Hey chads, many projects are out to rug you and take all your money but $SKINNY is here to do the opposite. <br />
-                                We're here to make a difference and ensure we all take back what's ours!
+                                Hey chads, hop the $DUGG train...next stop? The moon 🤑. <br />
+                                We're here to make a difference, let's come together and ensure we all make money as a community!
                             </div>
                         </div>
                     </div>

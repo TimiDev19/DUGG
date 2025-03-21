@@ -26,7 +26,7 @@ body {
 }
 
 .bottom-shadow {
-  box-shadow: 0 1px 0 #ffffff1a;
+  box-shadow: 0 1px 0 #6E4D1B;
 }
 
 .animation-bg {
@@ -44,7 +44,7 @@ body {
 }
 
 .about-bg {
-  background-image: linear-gradient(rgba(12, 13, 17, 0.7), rgba(15, 18, 29, 0.7)), url(../assets/about.jpg);
+  background-image: linear-gradient(rgba(12, 13, 17, 0.7), rgba(15, 18, 29, 0.7)), url(../assets/img5.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
