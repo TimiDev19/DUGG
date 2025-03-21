@@ -120,7 +120,7 @@ const Hero = () => {
 
                         <div className=' lg:w-[45%] text-sm'>
                             <div className={tektur.className}>
-                                Hey chads, hop the $DUGG train...next stop? The moon 🤑. <br />
+                                Hey chads, hop on the $DUGG train...next stop? The moon 🤑. <br />
                                 We're here to make a difference, let's come together and ensure we all make money as a community!
                             </div>
                         </div>
