@@ -36,13 +36,13 @@ const About = () => {
                         Dugg is the forgotten, retarded brother of Doge—clumsy, misunderstood, but secretly on a genius-level mission. Once left in the shadows, he’s now rallying an unstoppable community to conquer Solana.
                     </p>
                 </div>
-                <Link href={'https://dexscreener.com/solana/GBLMVFNai3UNvxNn1NQHah7MvbwnQMrNVtcWVghepump'}
+                {/* <Link href={'https://dexscreener.com/solana/GBLMVFNai3UNvxNn1NQHah7MvbwnQMrNVtcWVghepump'}
                     target='blank'
                     className=' mb-5 w-fit mx-auto p-2 border border-white rounded-lg flex items-center justify-center font-extrabold bg-white/10 backdrop-blur-lg hover:bg-white/0 duration-700'
                 >
                     <span className='mx-2 swipe-card'>💳</span>
                     Buy Now
-                </Link>
+                </Link> */}
                 <InfiniteCarousel />
             </FadeInFromBottom>
             {/* <Image
