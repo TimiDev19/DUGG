@@ -25,7 +25,7 @@ export default function Carousel() {
       <img
         src={images[currentIndex]}
         alt="carousel"
-        className="w-full h-auto shadow-lg transition-opacity duration-500"
+        className="w-full h-auto rounded-t-2xl shadow-lg transition-opacity duration-500"
       />
     </div>
   );
