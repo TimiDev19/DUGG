@@ -233,7 +233,7 @@ const Navbar = () => {
                                                 />
                                             </Link>
                                             {/*  */}
-                                            <Link href="https://t.me/realskinnycto"
+                                            <Link href="https://t.me/Dogesretardedbrother"
                                                 target='blank'
                                                 className=' flex items-center justify-center h-[80px] w-[80px] rounded-full border-[#6E4D1B] border mx-2 bg-white/10 backdrop-blur-lg hover:bg-white/0 duration-700 hover:border-transparent'
                                             >
@@ -255,7 +255,7 @@ const Navbar = () => {
                                             </Link>
                                         </div>
                                         <div className=" w-full flex items-center justify-center mt-6">
-                                        <Link href="https://t.me/realskinnycto"
+                                            <Link href="https://www.dextools.io/app/en/solana/pair-explorer/CEA31ZVBVs5efNPhdvRAbHecJ4My21HLhUCk2kmjvgUZ"
                                                 target='blank'
                                                 className=' flex items-center justify-center h-[80px] w-[80px] rounded-full border-[#6E4D1B] border mx-2 bg-white/10 backdrop-blur-lg hover:bg-white/0 duration-700 hover:border-transparent'
                                             >
