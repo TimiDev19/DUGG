@@ -28,7 +28,7 @@ export default function ImageSlider() {
                 key={index}
                 src={images[index]}
                 alt="Slideshow"
-                className="absolute h-full object-cover shadow-lg z-10"
+                className="absolute h-auto max-w-sm object-cover shadow-lg z-10"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}

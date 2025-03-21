@@ -12,7 +12,6 @@ import { CopyAll } from '@mui/icons-material';
 import FadeIn from '@/components/FadeIn';
 import FadeInFromBottom from '@/components/FadeInFromBottom';
 import FadeInFromRight from '@/components/FadeInFromRight';
-import ImageSlider from '@/components/ImageSlider';
 
 const tektur = Tektur({
     subsets: ['latin'],
@@ -94,14 +93,14 @@ const Hero = () => {
 
                 <div className=' lg:w-[40%]'>
                     <FadeIn>
-                        {/* <Image
+                        <Image
                             src={heroImg}
                             alt=''
                             className=' w-[90%] mx-auto'
-                        /> */}
-                        <div className=' w-[90%] mx-auto'>
+                        />
+                        {/* <div className=' w-[90%] mx-auto'>
 <ImageSlider/>
-                        </div>
+                        </div> */}
                     </FadeIn>
                 </div>
             </div>
