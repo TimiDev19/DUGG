@@ -222,7 +222,7 @@ const Navbar = () => {
                                         </Link> */}
 
                                         <div className=" w-full flex items-center justify-between mt-6">
-                                            <Link href="https://dexscreener.com/solana/fdmybaafgaagqrdxtuwcgokmtxtrckwwnffav5evmoon"
+                                            <Link href="https://dexscreener.com/solana/GBLMVFNai3UNvxNn1NQHah7MvbwnQMrNVtcWVghepump"
                                                 target='blank'
                                                 className=' flex items-center justify-center h-[80px] w-[80px] rounded-full border-[#6E4D1B] border mx-2 bg-white/10 backdrop-blur-lg hover:bg-white/0 duration-700 hover:border-transparent'
                                             >
@@ -243,7 +243,7 @@ const Navbar = () => {
                                                     className=' h-[70px] w-[70px] rounded-full'
                                                 />
                                             </Link>
-                                            <Link href="https://x.com/skinnyfellacto"
+                                            <Link href="https://x.com/dugg_cto"
                                                 target='blank'
                                                 className=' flex items-center justify-center h-[80px] w-[80px] rounded-full border-[#6E4D1B] border mx-2 bg-white/10 backdrop-blur-lg hover:bg-white/0 duration-700 hover:border-transparent'
                                             >
